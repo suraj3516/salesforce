@@ -1,0 +1,16 @@
+<template>
+    <lightning-card class="slds-card" title="Child Component">
+        <p><b>Parent Button Label : </b> {messageparent}</p>
+        <ul class="slds-button-group-row">
+            <li class="slds-button-group-item">
+                <button class="slds-button slds-button_neutral" onclick={handleButtonClickRefresh}>Refresh</button>
+            </li>
+            <li class="slds-button-group-item">
+                <button class="slds-button slds-button_neutral" onclick={handleButtonClickEdit}>Edit</button>
+            </li>
+            <li class="slds-button-group-item">
+                <button class="slds-button slds-button_brand" onclick={handleButtonClickSave}>Save</button>
+            </li>
+        </ul>
+    </lightning-card>
+</template>
